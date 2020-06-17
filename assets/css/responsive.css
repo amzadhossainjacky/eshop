@@ -1,0 +1,362 @@
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+
+  .navbar-collapse{
+    padding: 20px;
+    margin-top: 20px;
+    transition: all 0.8s ease;
+  }
+    .menu .nav-link {
+        margin-left: 0px;
+        border: 2px solid #818181;
+        margin-top: 10px;
+      }
+    .navbar-toggler-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .mega-menu a:last-child{
+      margin-bottom: 10px;
+    }
+    .mega-menu,.mega-menu2,.mega-menu3{
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* banner */
+
+    .banner h4, span{
+      font-size: 22px !important;
+      letter-spacing: .125rem;
+    }
+
+    .banner a {
+      font-size: 16px;
+      margin-top: 0px;
+    }
+
+    /* list product */
+    .list-product-details h2{
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    .list-product-details p, .list-product-price a{
+      font-size: 12px;
+    }
+    .list-product-price .global-submit {
+      padding: 4px 8px;
+      margin: 10px 0px;
+    }
+
+    /* product details */
+    .add-cart-btn{
+      margin-top: 10px;
+    }
+
+    .price-box {
+      margin-bottom: 20px;
+    }
+
+    /* cart  */
+
+    .continue-shopping .global-submit{
+        font-size: 16px !important;
+        padding: 6px 9px;
+        margin: 0px;
+    }
+
+    .total-price-box label {
+      font-size: 16px;
+    }
+    .total-price-box span {
+      font-size: 16px !important;
+    }
+    .check-out-btn .global-submit{
+        font-size: 12px !important;
+        padding: 4px 8px;
+        margin: 15px 0px;
+    }
+    .check-out-btn a{
+      font-size: 12px !important;
+  }
+}
+  
+@media screen and (max-width: 767px) {
+ 
+    /* top nav section */  
+    .menu{
+      background: #e4e4e4;
+    }  
+    .menu .logo-e, span{
+        font-size: 20px;
+      } 
+      .menu .logo-e{
+        padding: 0px 9px;
+      }
+      
+    
+      /* banner */
+      .banner{
+        background: linear-gradient(rgba(51, 50, 50, 0.1),rgba(51, 48, 48, 0.1)), url(../../images/banner_img.jpg) no-repeat center center;
+        background-size: cover;
+
+      }
+
+      .banner h4, span{
+        font-size: 18px !important;
+        letter-spacing: .125rem;
+      }
+      .banner a {
+        font-size: 14px;
+        padding: 3px 6px;
+      }
+
+      /* product */
+
+      .global-heading h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .product{
+        padding: 60px 0px;
+      }
+      
+      .card .mask{
+        top: 40% !important;
+      }
+      .card .mask a{
+        font-size: 12px !important;
+        font-weight: 700;
+      }
+
+      .card .card-title{
+        font-size: 14px;
+      }
+      .card span,i{
+        
+        font-size: 14px !important;
+      } 
+
+      /* other product */
+      .other-product {
+        padding: 60px 0px;
+      }
+
+      .other-product h5{
+        font-size: 14px;
+      }
+      
+      .other-product span,i{
+        font-size: 14px !important;
+      }
+
+
+      /* join us */
+      .join-us h4 {
+        font-size: 18px;
+      }
+
+      .join-us .form-group {
+        font-size: 18px !important;
+      }
+
+      .join-us button {
+        font-size: 16px;
+      }
+
+      /* footer */
+
+      .footer-section h4{
+        font-size: 18px;
+      }
+
+     /*  side bar */
+      .sidebar .product-list h2 {
+        font-size: 18px;
+        padding: 20px 10px;
+      }
+
+      .sidebar .product-list li a {
+        padding: 3px 10px
+      }
+
+      .single-product-details h1{
+        font-size: 18px;
+      }
+
+      .stock-container p, .sku-box p {
+        font-size: 14px;
+      }
+      .stock-container p>span {
+        
+        font-size: 12px !important;
+      }
+      .sku-box p>span {
+        font-size: 12px !important;
+      }
+      .add-cart-btn{
+        font-size: 12px;
+      }
+      .quantity span {
+        
+        font-size: 14px !important;
+      }
+  
+      .feature .feature-info span{
+        font-size: 14px !important;
+      }
+      
+      .create-account a {
+        font-size: 16px;
+      }
+
+      .login-section .global-submit{
+        font-size: 14px;
+        margin: 0px 0px !important;
+      }
+
+      /* cart  */
+
+    .continue-shopping .global-submit{
+      font-size: 14px !important;
+      padding: 6px 9px !important;
+      margin-top: 15px !important;
+    }
+
+    .cart-section td img{
+      width: 50px;
+      height: 50px;
+    }
+    
+  .cart-section td p, h3{
+    font-size: 12px !important;
+  }
+  .cart-section td a i{
+    font-size: 16px !important;
+  }
+  .cart-section td span{
+    font-size: 14px;
+  }
+
+  .discount-code,.total-price-box{
+    margin-top: 25px;
+  }
+
+  .discount-code h3 {
+    font-size: 18px !important;
+  }
+  
+
+}
+
+@media screen and (max-width: 575px) {
+
+/* top header section */
+    .login ul li a{
+        font-size: 12px;
+        padding: 0px 3px;
+      }
+      .login ul li i{
+        font-size: 10px;
+      }
+
+      .cart-box span{
+        font-size: 12px;
+        padding: 0px 3px;
+      }
+      .cart-box i{
+        font-size: 12px;
+      }
+
+
+      /* top nav section */    
+       .menu .logo-e, span{
+        font-size: 18px;
+      } 
+      .menu .logo-e{
+        padding: 0px 6px;
+      }
+
+      .navbar-toggler-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+      .menu .nav-link{
+        font-size: 14px;
+      }
+
+      /* product */
+      .global-heading h1 {
+        font-size: 22px;
+        margin-bottom: 30px;
+      }
+
+      .copy-right p,a{
+        font-size: 14px;
+      }
+
+      .sidebar .product-list h2 {
+        font-size: 14px;
+        padding: 16px 8px;
+      }
+
+      .latest-offer p {
+        font-size: 20px;
+        padding: 14px;
+      }
+
+      .latest-offer small {
+        font-size: 14px;
+      }
+      .sidebar .tags{
+        padding: 0px 6px;
+      }
+
+      .sidebar .tags a{
+        padding: 4px 8px;
+        font-size: 10px;
+      }
+      .sidebar .tags h4{
+        font-size: 14px;
+      }
+
+      .sort label, option{
+        font-size: 12px;
+      }
+
+}
+
+@media screen and (max-width: 440px) {
+
+  .banner .content{
+    padding: 120px 0px;
+  }
+
+  .card .mask{
+    top: 40% !important;
+  }
+  .card .mask a{
+    font-size: 8px !important;
+    font-weight: 700;
+  }
+
+}
+
+/**********************************************************
+
+***       orientation  or landscape responsive css      ***
+
+**********************************************************/
+
+@media only screen and (max-width: 1199px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 991px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 440px) and (orientation: landscape) {
+}
